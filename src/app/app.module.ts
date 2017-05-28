@@ -19,6 +19,7 @@ import { MainSliderComponent } from './partials/main-slider/main-slider.componen
 import { NewsComponent } from './components/news/news.component';
 import { BlogpostComponent } from './partials/blogpost/blogpost.component';
 import { FooterComponent } from './partials/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { FooterComponent } from './partials/footer/footer.component';
         MainSliderComponent,
         NewsComponent,
         BlogpostComponent,
-        FooterComponent
+        FooterComponent,
+        AboutComponent
     ],
     imports: [
         BrowserModule,
