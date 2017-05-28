@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './partials/navbar/navbar.component';
 
+import { FakepressService } from './services/fakepress.service';
+
 /*============================================================================
  Route Imports
  ============================================================================*/
@@ -34,7 +36,7 @@ import { FooterComponent } from './partials/footer/footer.component';
         HttpModule,
         AppRoutingModule
     ],
-    providers: [],
+    providers: [FakepressService],
     bootstrap: [AppComponent]
 })
 

@@ -153,6 +153,32 @@
                     </div>
                 </div>
             </div>
+
+            <!--Repeated posts-->
+            <div class="col-md-4 col-sm-6" *ngFor="let post of posts">
+                <div class="blog-post">
+                    <div class="post-info">
+                        <div class="post-date">
+                            <div class="date">30 JAN, 2013</div>
+                        </div>
+                        <div class="post-comments-count">
+                            <a href="page-blog-post-right-sidebar.html" title="Show Comments"><i class="glyphicon glyphicon-comment icon-white"></i>57</a>
+                        </div>
+                    </div>
+                    <a href="page-blog-post-right-sidebar.html"><img src="assets/img/blog3.jpg" class="post-image" alt="Post Title"></a>
+                    <div class="post-title">
+                        <h3><a href="page-blog-post-right-sidebar.html">{{post.title}}</a></h3>
+                    </div>
+                    <div class="post-summary">
+                        <p>{{post.content}}</p>
+                    </div>
+                    <div class="post-more">
+                        <a href="page-blog-post-right-sidebar.html" class="btn btn-small">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </div>
