@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+/*============================================================================
+    Color variables
+ ============================================================================*/
+
+$ASPHALT: #34495e;
+$LIGHTGREEN: #16a085;
+
+@import "imports/leaflet.scss";
+@import "imports/theme.scss";
+
+/*============================================================================
+    Universal Styles
+ ============================================================================*/
+
+body{
+    //background-color: $ASPHALT;
+    //background-color: $LIGHTGREEN;
+}
+
+.nav-padder{
+    //margin-top: 50px;
+    position: relative;
+    bottom: 0;
+}
