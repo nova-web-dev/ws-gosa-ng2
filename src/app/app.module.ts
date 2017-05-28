@@ -14,13 +14,15 @@ import { NavbarComponent } from './partials/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { MainSliderComponent } from './partials/main-slider/main-slider.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
         NavbarComponent,
-        MainSliderComponent
+        MainSliderComponent,
+        NewsComponent
     ],
     imports: [
         BrowserModule,
