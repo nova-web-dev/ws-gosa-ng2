@@ -22,4 +22,8 @@ export class NavbarComponent implements OnInit {
 
     }
 
+    openForumLink(): void {
+        window.open('http://gosa.co.za/forum/', '_blank' );
+    }
+
 }
