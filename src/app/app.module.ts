@@ -15,6 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { MainSliderComponent } from './partials/main-slider/main-slider.component';
 import { NewsComponent } from './components/news/news.component';
+import { BlogpostComponent } from './partials/blogpost/blogpost.component';
+import { FooterComponent } from './partials/footer/footer.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +24,9 @@ import { NewsComponent } from './components/news/news.component';
         HomeComponent,
         NavbarComponent,
         MainSliderComponent,
-        NewsComponent
+        NewsComponent,
+        BlogpostComponent,
+        FooterComponent
     ],
     imports: [
         BrowserModule,

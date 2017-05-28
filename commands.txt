@@ -1,0 +1,2 @@
+ng build --prod --base-href "https://nova-web-dev.github.io/ws-gosa-ng2/"
+angular-cli-ghpages --no-silent
