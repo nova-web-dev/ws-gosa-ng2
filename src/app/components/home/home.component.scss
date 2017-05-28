@@ -1,0 +1,21 @@
+.section-parallax-1{
+    background-image: url('../../../assets/images/parallax1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+.white-header{
+    color: white !important;
+}
+.center-me{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    //height: 100%;
+}
+.fullheight{
+    height: 100%;
+}
+.btn-signup{
+    min-width: 150px;
+}
